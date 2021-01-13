@@ -196,10 +196,11 @@ p {
 
 /* Language */
 .lang {
-	justify-content: space-between;
+	justify-content: flex-start;
 }
 .lang__content {
-	text-align: center;
+	text-align: center;		
+	margin: 5px;
 }
 .lang__content h4 {
 	text-transform: uppercase;
